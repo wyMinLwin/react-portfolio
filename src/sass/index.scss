@@ -1,0 +1,45 @@
+$theme-colors: (
+  "primary": #fe4164,
+  "secondary" : #8f00f1,
+  "dark": #222222,
+  "light" : #F7F7F7,
+  "black": #3B3B3B,
+  "white": #E1E1E1,
+);
+
+body{
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+$font-family-base: 'Montserrat', sans-serif !default;
+$font-family-code: 'Montserrat', sans-serif !default;
+$display-font-family: 'Montserrat', sans-serif !default;
+
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+}
+
+$btn-font-size: 1.2em;
+$btn-border-radius: 0.6em;
+
+.profile_animate {
+    animation: profile_animate 6s ease-in-out infinite 1s;
+    box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
+}
+
+@keyframes profile_animate {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+@import '../../node_modules/bootstrap/scss/bootstrap.scss'
