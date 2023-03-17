@@ -9,9 +9,13 @@ const Section = () => {
         {name:'BOOTSTRAP',icon:'fa-brands fa-bootstrap'},
         {name:'SASS',icon:'fa-brands fa-sass'},
         {name:'JAVASCRIPT+ES6',icon:'fa-brands fa-js'},
+        {name:'TYPESCRIPT',icon:'fa-solid fa-t'},
         {name:'REACT',icon:'fa-brands fa-react'},
-        {name:'PHP',icon:'fa-brands fa-php'},
+        {name:'REACT NATIVE',icon:'fa-solid fa-mobile'},
         {name:'GIT',icon:'fa-brands fa-git-alt'},
+        {name:'REDUX',icon:'fa-solid fa-hard-drive'},
+        {name:'TAILWIND',icon:'fa-solid fa-paint-roller'},
+        {name:'UBUNTU OS',icon:'fa-brands fa-ubuntu'},
     
     ])
   return (

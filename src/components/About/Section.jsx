@@ -1,5 +1,5 @@
 import React from 'react'
-import Profile from '../../assets/profile.jpg';
+import Profile from '../../assets/pf.jpg';
 import Resume from '../../assets/resume.pdf';
 
 const Section = () => {

@@ -1,6 +1,6 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect';
-import Profile from '../../assets/profile.jpg';
+import Profile from '../../assets/pf.jpg';
 
 const Section = () => {
   return (
